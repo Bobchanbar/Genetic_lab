@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E70667D264315EF00D1CBA4 /* CrossoverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E70667C264315EF00D1CBA4 /* CrossoverService.swift */; };
 		890E9D562641B71700641543 /* CrossoverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E9D552641B71700641543 /* CrossoverType.swift */; };
 		89497F262631AF5300B47845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F252631AF5300B47845 /* AppDelegate.swift */; };
 		89497F282631AF5300B47845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F272631AF5300B47845 /* SceneDelegate.swift */; };
 		89497F2A2631AF5300B47845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F292631AF5300B47845 /* ViewController.swift */; };
 		89497F2D2631AF5300B47845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89497F2B2631AF5300B47845 /* Main.storyboard */; };
-		89497F302631AF5300B47845 /* GeneticLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */; };
 		89497F322631AF5400B47845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89497F312631AF5400B47845 /* Assets.xcassets */; };
 		89497F352631AF5400B47845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89497F332631AF5400B47845 /* LaunchScreen.storyboard */; };
 		89AF26E8263C43CA0055080D /* Gene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AF26E7263C43CA0055080D /* Gene.swift */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E70667C264315EF00D1CBA4 /* CrossoverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossoverService.swift; sourceTree = "<group>"; };
 		890E9D552641B71700641543 /* CrossoverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossoverType.swift; sourceTree = "<group>"; };
 		89497F222631AF5300B47845 /* GeneticLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89497F252631AF5300B47845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89497F272631AF5300B47845 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89497F292631AF5300B47845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89497F2C2631AF5300B47845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeneticLab.xcdatamodel; sourceTree = "<group>"; };
 		89497F312631AF5400B47845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89497F342631AF5400B47845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89497F362631AF5400B47845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +45,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E70667B264315D900D1CBA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E70667C264315EF00D1CBA4 /* CrossoverService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7E70667E26431C8400D1CBA4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				890E9D552641B71700641543 /* CrossoverType.swift */,
+				89AF26E7263C43CA0055080D /* Gene.swift */,
+				89AF26E9263C45CE0055080D /* Creatures.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7E70667F26431CE700D1CBA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				89497F252631AF5300B47845 /* AppDelegate.swift */,
+				89497F272631AF5300B47845 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7E70668026431D2900D1CBA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89497F2B2631AF5300B47845 /* Main.storyboard */,
+				89497F312631AF5400B47845 /* Assets.xcassets */,
+				89497F332631AF5400B47845 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E70668126431D3600D1CBA4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				89497F292631AF5300B47845 /* ViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		89497F192631AF5300B47845 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +109,12 @@
 		89497F242631AF5300B47845 /* GeneticLab */ = {
 			isa = PBXGroup;
 			children = (
-				89497F252631AF5300B47845 /* AppDelegate.swift */,
-				89497F272631AF5300B47845 /* SceneDelegate.swift */,
-				89497F292631AF5300B47845 /* ViewController.swift */,
-				890E9D552641B71700641543 /* CrossoverType.swift */,
-				89AF26E7263C43CA0055080D /* Gene.swift */,
-				89AF26E9263C45CE0055080D /* Creatures.swift */,
-				89497F2B2631AF5300B47845 /* Main.storyboard */,
-				89497F312631AF5400B47845 /* Assets.xcassets */,
-				89497F332631AF5400B47845 /* LaunchScreen.storyboard */,
+				7E70667F26431CE700D1CBA4 /* App */,
+				7E70667E26431C8400D1CBA4 /* Entities */,
+				7E70668126431D3600D1CBA4 /* Modules */,
+				7E70667B264315D900D1CBA4 /* Services */,
+				7E70668026431D2900D1CBA4 /* Resources */,
 				89497F362631AF5400B47845 /* Info.plist */,
-				89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */,
 			);
 			path = GeneticLab;
 			sourceTree = "<group>";
@@ -149,10 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E70667D264315EF00D1CBA4 /* CrossoverService.swift in Sources */,
 				89AF26E8263C43CA0055080D /* Gene.swift in Sources */,
 				890E9D562641B71700641543 /* CrossoverType.swift in Sources */,
 				89497F2A2631AF5300B47845 /* ViewController.swift in Sources */,
-				89497F302631AF5300B47845 /* GeneticLab.xcdatamodeld in Sources */,
 				89497F262631AF5300B47845 /* AppDelegate.swift in Sources */,
 				89AF26EA263C45CE0055080D /* Creatures.swift in Sources */,
 				89497F282631AF5300B47845 /* SceneDelegate.swift in Sources */,
@@ -357,19 +397,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */,
-			);
-			currentVersion = 89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */;
-			path = GeneticLab.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 89497F1A2631AF5300B47845 /* Project object */;
 }
