@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890E9D562641B71700641543 /* CrossoverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E9D552641B71700641543 /* CrossoverType.swift */; };
+		89497F262631AF5300B47845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F252631AF5300B47845 /* AppDelegate.swift */; };
+		89497F282631AF5300B47845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F272631AF5300B47845 /* SceneDelegate.swift */; };
+		89497F2A2631AF5300B47845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89497F292631AF5300B47845 /* ViewController.swift */; };
+		89497F2D2631AF5300B47845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89497F2B2631AF5300B47845 /* Main.storyboard */; };
+		89497F302631AF5300B47845 /* GeneticLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */; };
+		89497F322631AF5400B47845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89497F312631AF5400B47845 /* Assets.xcassets */; };
+		89497F352631AF5400B47845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89497F332631AF5400B47845 /* LaunchScreen.storyboard */; };
+		89AF26E8263C43CA0055080D /* Gene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AF26E7263C43CA0055080D /* Gene.swift */; };
+		89AF26EA263C45CE0055080D /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AF26E9263C45CE0055080D /* Creatures.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		890E9D552641B71700641543 /* CrossoverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossoverType.swift; sourceTree = "<group>"; };
+		89497F222631AF5300B47845 /* GeneticLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89497F252631AF5300B47845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89497F272631AF5300B47845 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89497F292631AF5300B47845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89497F2C2631AF5300B47845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeneticLab.xcdatamodel; sourceTree = "<group>"; };
+		89497F312631AF5400B47845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89497F342631AF5400B47845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89497F362631AF5400B47845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AF26E7263C43CA0055080D /* Gene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gene.swift; sourceTree = "<group>"; };
+		89AF26E9263C45CE0055080D /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89497F1F2631AF5300B47845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89497F192631AF5300B47845 = {
+			isa = PBXGroup;
+			children = (
+				89497F242631AF5300B47845 /* GeneticLab */,
+				89497F232631AF5300B47845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89497F232631AF5300B47845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89497F222631AF5300B47845 /* GeneticLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89497F242631AF5300B47845 /* GeneticLab */ = {
+			isa = PBXGroup;
+			children = (
+				89497F252631AF5300B47845 /* AppDelegate.swift */,
+				89497F272631AF5300B47845 /* SceneDelegate.swift */,
+				89497F292631AF5300B47845 /* ViewController.swift */,
+				890E9D552641B71700641543 /* CrossoverType.swift */,
+				89AF26E7263C43CA0055080D /* Gene.swift */,
+				89AF26E9263C45CE0055080D /* Creatures.swift */,
+				89497F2B2631AF5300B47845 /* Main.storyboard */,
+				89497F312631AF5400B47845 /* Assets.xcassets */,
+				89497F332631AF5400B47845 /* LaunchScreen.storyboard */,
+				89497F362631AF5400B47845 /* Info.plist */,
+				89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */,
+			);
+			path = GeneticLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89497F212631AF5300B47845 /* GeneticLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89497F392631AF5400B47845 /* Build configuration list for PBXNativeTarget "GeneticLab" */;
+			buildPhases = (
+				89497F1E2631AF5300B47845 /* Sources */,
+				89497F1F2631AF5300B47845 /* Frameworks */,
+				89497F202631AF5300B47845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneticLab;
+			productName = GeneticLab;
+			productReference = 89497F222631AF5300B47845 /* GeneticLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89497F1A2631AF5300B47845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					89497F212631AF5300B47845 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 89497F1D2631AF5300B47845 /* Build configuration list for PBXProject "GeneticLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89497F192631AF5300B47845;
+			productRefGroup = 89497F232631AF5300B47845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89497F212631AF5300B47845 /* GeneticLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89497F202631AF5300B47845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89497F352631AF5400B47845 /* LaunchScreen.storyboard in Resources */,
+				89497F322631AF5400B47845 /* Assets.xcassets in Resources */,
+				89497F2D2631AF5300B47845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89497F1E2631AF5300B47845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AF26E8263C43CA0055080D /* Gene.swift in Sources */,
+				890E9D562641B71700641543 /* CrossoverType.swift in Sources */,
+				89497F2A2631AF5300B47845 /* ViewController.swift in Sources */,
+				89497F302631AF5300B47845 /* GeneticLab.xcdatamodeld in Sources */,
+				89497F262631AF5300B47845 /* AppDelegate.swift in Sources */,
+				89AF26EA263C45CE0055080D /* Creatures.swift in Sources */,
+				89497F282631AF5300B47845 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89497F2B2631AF5300B47845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89497F2C2631AF5300B47845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89497F332631AF5400B47845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89497F342631AF5400B47845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89497F372631AF5400B47845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89497F382631AF5400B47845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89497F3A2631AF5400B47845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Z9D57F76;
+				INFOPLIST_FILE = GeneticLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bobch.GeneticLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89497F3B2631AF5400B47845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Z9D57F76;
+				INFOPLIST_FILE = GeneticLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bobch.GeneticLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89497F1D2631AF5300B47845 /* Build configuration list for PBXProject "GeneticLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89497F372631AF5400B47845 /* Debug */,
+				89497F382631AF5400B47845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89497F392631AF5400B47845 /* Build configuration list for PBXNativeTarget "GeneticLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89497F3A2631AF5400B47845 /* Debug */,
+				89497F3B2631AF5400B47845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89497F2E2631AF5300B47845 /* GeneticLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */,
+			);
+			currentVersion = 89497F2F2631AF5300B47845 /* GeneticLab.xcdatamodel */;
+			path = GeneticLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89497F1A2631AF5300B47845 /* Project object */;
+}
