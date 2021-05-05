@@ -74,7 +74,6 @@
                                 <rect key="frame" x="0.0" y="380" width="414" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -115,15 +114,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="crossOptions" destination="G4P-do-QFF" id="PiR-LA-4iy"/>
-                        <outlet property="genSize" destination="0d1-3u-5an" id="daQ-mF-fzL"/>
+                        <outlet property="crossOptionsPickerView" destination="G4P-do-QFF" id="PiR-LA-4iy"/>
+                        <outlet property="generationSizeTextField" destination="0d1-3u-5an" id="daQ-mF-fzL"/>
                         <outlet property="generationSlider" destination="CiU-w8-iMw" id="XVt-8n-Dmj"/>
-                        <outlet property="mutChance" destination="zLi-Oc-Vfp" id="V2K-HH-wwM"/>
-                        <outlet property="popSize" destination="UBv-Et-g3i" id="YmB-Dg-CeG"/>
-                        <outlet property="resultView" destination="mvJ-85-t9v" id="gWD-QC-NjO"/>
+                        <outlet property="mutationChanceTextField" destination="zLi-Oc-Vfp" id="V2K-HH-wwM"/>
+                        <outlet property="populationSizeTextField" destination="UBv-Et-g3i" id="YmB-Dg-CeG"/>
+                        <outlet property="resultTextView" destination="mvJ-85-t9v" id="gWD-QC-NjO"/>
                         <outlet property="startButton" destination="gok-K3-HqW" id="Wvc-z1-qmY"/>
                         <outlet property="tapButton" destination="Yy5-b5-CVW" id="Z0O-G7-Mb8"/>
-                        <outlet property="workingTypeChanger" destination="Sce-LB-Wyg" id="Gzd-23-3mW"/>
+                        <outlet property="workingTypeSegmentedControl" destination="Sce-LB-Wyg" id="Gzd-23-3mW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
